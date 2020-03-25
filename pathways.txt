@@ -1,8 +1,0 @@
-SM_iceRock_05#.#.#C:/Users/Greiner/Documents/maya/2018/scripts/nssart/Meshes/rocks/ice_rocks/SM_iceRock_05.fbx
-SM_iceRock_04#.#.#C:/Users/Greiner/Documents/maya/2018/scripts/nssart/Meshes/rocks/ice_rocks/SM_iceRock_04.fbx
-SM_iceRock_03#.#.#C:/Users/Greiner/Documents/maya/2018/scripts/nssart/Meshes/rocks/ice_rocks/SM_iceRock_03.fbx
-SM_iceRock_02#.#.#C:/Users/Greiner/Documents/maya/2018/scripts/nssart/Meshes/rocks/ice_rocks/SM_iceRock_02.fbx
-SM_iceRock_01#.#.#C:/Users/Greiner/Documents/maya/2018/scripts/nssart/Meshes/rocks/ice_rocks/SM_iceRock_01.fbx
-SM_giantIcicle2#.#.#C:/Users/Greiner/Documents/maya/2018/scripts/nssart/Meshes/rocks/ice_rocks/SM_giantIcicle2.fbx
-SM_giantIcicle1#.#.#C:/Users/Greiner/Documents/maya/2018/scripts/nssart/Meshes/rocks/ice_rocks/SM_giantIcicle1.fbx
-SM_iceRock_08#.#.#C:/Users/Greiner/Documents/maya/2018/scripts/nssart/Meshes/rocks/ice_rocks/SM_iceRock_08.fbx
