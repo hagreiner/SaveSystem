@@ -46,8 +46,8 @@ class SavePaths:
 def loadAsset(path):
     LockedObject().add()
     cmds.file(path, i=True, ra=True)
-    if LockedObject.item != "":
-        MoveObject(cmds.ls(sl=True), LockedObject.item).move()
+    # if LockedObject.item != "":
+    #     MoveObject(cmds.ls(sl=True), LockedObject.item).move()
 
 
 def removeAsset(name, path):
@@ -57,6 +57,12 @@ def removeAsset(name, path):
         pass
     SavePaths().removeData(name, path)
     main.Library().create()
+
+
+def saveAsset(name, path):
+    type = path.split(".")[-1]
+    cmds.file(rename=name + "." + type)
+    cmds.file(path, type="mayaBinary", exportSelected=True)
 
 
 class Callback(object):

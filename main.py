@@ -62,8 +62,8 @@ class Library:
         existingItemsName = []
         cmds.button(label="CLOSE", command=lambda args: cmds.deleteUI(self.window, window=True))
 
-        cmds.rowColumnLayout(numberOfColumns=2, columnWidth=[(1, self.width/2.0), (2, self.width/2.0)],
-                             parent=self.column)
+        cmds.rowColumnLayout(numberOfColumns=3, columnWidth=[(1, self.width/2.0), (2, self.width/4.0),
+                                                             (3, self.width/4.0)], parent=self.column)
         pathways = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pathways.txt")
         self.file = open(pathways, "r")
         Lines = self.file.readlines()
@@ -73,6 +73,7 @@ class Library:
                 existingItemsName.append(lineList[0])
                 cmds.button(label=lineList[0], command=saveLinks.Callback(saveLinks.loadAsset, lineList[1]))
                 cmds.button(label="remove", command=saveLinks.Callback(saveLinks.removeAsset, lineList[0], lineList[1]))
+                cmds.button(label="save", command=saveLinks.Callback(saveLinks.saveAsset, lineList[0], lineList[1]))
         self.file.close()
 
         cmds.showWindow(self.window)
